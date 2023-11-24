@@ -14,7 +14,6 @@ Gem::Specification.new do |spec|
   spec.homepage              = %(https://github.com/drzln/#{spec.name})
   spec.license               = %(MIT)
   spec.require_paths         = [%(lib)]
-  spec.executables << %(pangea)
   spec.required_ruby_version = %(>= #{`cat .ruby-version`})
 
   spec.files = `git ls-files -z`.split("\x0").reject do |f|
